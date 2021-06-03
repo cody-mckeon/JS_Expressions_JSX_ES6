@@ -1,4 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>Hello World!</h1>, document.getElementById("root"));
+const name = "Cody McKeon";
+const luckyNumber = 199;
+
+ReactDOM.render(
+  <div>
+    <h1>Hello {name}!</h1>
+    <p>Your lucky number is {luckyNumber}</p>
+  </div>,
+  document.getElementById("root")
+);
